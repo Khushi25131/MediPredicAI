@@ -1,0 +1,115 @@
+# MediPredic AI: AI-Based Disease Prediction Using Machine Learning
+
+## Abstract
+
+Healthcare prediction systems are becoming increasingly important with the advancement of artificial intelligence and machine learning technologies. This research presents MediPredic AI, a machine learning-based disease prediction system for diabetes prediction using patient medical data. The system uses Logistic Regression to analyze health parameters and predict whether a patient is diabetic or non-diabetic. The model was trained and evaluated using the Pima Indians Diabetes Dataset. Experimental results show satisfactory accuracy and effectiveness in disease prediction.
+
+---
+
+# 1. Introduction
+
+Artificial Intelligence is transforming healthcare by enabling early disease prediction and intelligent diagnosis systems. Diabetes is one of the most common chronic diseases worldwide. Early prediction can help reduce health risks and improve treatment planning.
+
+MediPredic AI aims to provide an AI-powered healthcare prediction system using machine learning algorithms.
+
+---
+
+# 2. Objectives
+
+- To develop an AI-based diabetes prediction system
+- To analyze medical datasets using machine learning
+- To evaluate prediction accuracy
+- To provide real-time disease prediction
+
+---
+
+# 3. Dataset Used
+
+Dataset Name:
+Pima Indians Diabetes Dataset
+
+Dataset Features:
+- Pregnancies
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+- BMI
+- DiabetesPedigreeFunction
+- Age
+- Outcome
+
+---
+
+# 4. Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+
+---
+
+# 5. Methodology
+
+## Step 1 — Data Collection
+Dataset collected from Kaggle.
+
+## Step 2 — Data Preprocessing
+- Removed duplicates
+- Replaced invalid zero values
+- Cleaned dataset
+
+## Step 3 — Exploratory Data Analysis
+Performed:
+- Heatmaps
+- Correlation analysis
+- Count plots
+
+## Step 4 — Machine Learning Model
+Used Logistic Regression algorithm.
+
+## Step 5 — Model Evaluation
+Evaluated using:
+- Accuracy score
+- Confusion matrix
+- Classification report
+
+---
+
+# 6. Results
+
+The Logistic Regression model achieved good prediction performance on the diabetes dataset.
+
+Evaluation metrics included:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+---
+
+# 7. Conclusion
+
+MediPredic AI successfully demonstrates the application of machine learning in healthcare disease prediction. The system can predict diabetes based on patient health parameters and can assist in early healthcare diagnosis.
+
+---
+
+# 8. Future Scope
+
+- Web application integration
+- Deep learning implementation
+- Multi-disease prediction
+- Real-time hospital integration
+- Cloud deployment
+
+---
+
+# 9. References
+
+- Kaggle Diabetes Dataset
+- Scikit-learn Documentation
+- Python Documentation
